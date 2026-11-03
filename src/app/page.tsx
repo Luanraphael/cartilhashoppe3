@@ -392,20 +392,6 @@ export default function ShopeePage() {
 
             <MainMockup priority className="mt-6" />
 
-            {/* Âncora de preço já na primeira dobra. */}
-            <div className="sp-price-tag mt-6">
-              {OLD_PRICE && (
-                <span className="sp-price-tag-old">
-                  DE <s>R$ {OLD_PRICE}</s>
-                </span>
-              )}
-              <span className="sp-price-tag-by">POR APENAS</span>
-              <span className={`${display} sp-price-tag-new`}>
-                <span className="sp-price-tag-cur">R$</span>
-                {PRICE}
-              </span>
-            </div>
-
             <p className="mt-8 text-lg font-medium leading-relaxed text-white/95 sm:text-xl">
               Conheça a <SoftMark>Cartilha Prática</SoftMark>, um passo a passo visual e organizado, com{" "}
               <strong className="font-extrabold">telas da Shopee ilustradas</strong>, exemplos e cálculos que mostram{" "}
