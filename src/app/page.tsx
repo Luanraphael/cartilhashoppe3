@@ -6,7 +6,7 @@ import { Check, ChevronsDown, Gift, Minus, Plus, ShieldCheck } from "lucide-reac
 const IMG = "/assets";
 // Preço e checkout desta página (cada página tem os seus). OLD_PRICE null = sem preço riscado.
 const PRICE = "97,00";
-const OLD_PRICE: string | null = null;
+const OLD_PRICE: string | null = "167,00";
 const CHECKOUT = "https://pay.wiapy.com/WGNLh15HtRs-";
 const display = "font-display";
 
